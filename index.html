@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html manifest="offline.manifest">
+  <head >
+    <link rel='manifest' href='app.manifest' />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Imagens e LIBRAS</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/index.css"
+    />
+  </head>
+  <body onload="trocaPagina('home')">
+    <div id="body">
+      <div id="open-menu">
+        <img src="./img/icons/menu.svg" class="menu_icon" />
+      </div>
+      <div id="close-menu">
+        <img src="./img/icons/menu.svg" class="menu_icon" />
+      </div>
+      <nav class="menu_top">
+        <a class="title" onclick="trocaPagina('home')">Imagens e LIBRAS</a>
+      </nav>
+      <nav id="sidebar">
+        <a onclick="trocaPagina('home')">Home</a>
+        <a onclick="insereCategoria('composicao')">Composição</a>
+        <a onclick="insereCategoria('dicas')">Dicas</a>
+        <a>Glossário</a>
+      </nav>
+      <div class="menu_wrapper">
+        <div class="search_bar">
+          <input
+            type="text"
+            name="search"
+            id="searchbar_input"
+            placeholder="Pesquisar"
+            list="result_busca"
+          />
+          <div class="search_icon_wrapper" onclick="abreResultado()">
+            <img src="img/search.svg" class="search_icon" />
+          </div>
+          <datalist id="result_busca"></datalist>
+        </div>
+        <div class="select_menu">
+          <span
+            name="composicao"
+            class="select_item"
+            onclick="insereCategoria('composicao')"
+          >
+            Composição
+          </span>
+          <span
+            name="dicas"
+            class="select_item"
+            onclick="insereCategoria('dicas')"
+          >
+            Dicas
+          </span>
+        </div>
+      </div>
+      <div id="main"></div>
+      <nav class="menu_footer">
+        <div class="footer_item" onclick="trocaPagina('videos')">
+          <img src="img/video.svg" />
+          <a href="#">Vídeos</a>
+        </div>
+        <div class="footer_item" onclick="insereTodos()">
+          <img src="img/book.svg" />
+          <a href="#">Glossário</a>
+        </div>
+      </nav>
+    </div>
+
+    <template id="template-home">
+      <main class="home_main">
+        <img src="img/icons/logoVertical-01.svg" id="home_logo" />
+      </main>
+    </template>
+    <template id="template-videos">
+      <main class="videos_main">
+        <div class="videos_wrapper">
+          <article class="videos_container">
+            <h3>Composição</h3>
+            <div id="insereTecnicas"></div>
+          </article>
+          <article class="videos_container">
+            <h3>Dicas</h3>
+            <div id="insereDicas"></div>
+          </article>
+        </div>
+      </main>
+    </template>
+    <script src='sw/registra.js'></script>
+    <script src="js/videos.js"></script>
+    <script src="js/videoMini.js"></script>
+    <script src="js/navegacao.js"></script>
+    <script src="js/busca.js"></script>
+    <script src="js/sidemenu.js"></script>
+  </body>
+</html>
