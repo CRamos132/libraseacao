@@ -1,12 +1,12 @@
 {
-  "name": "Ceep",
-  "short_name": "Ceep",
-  "description": "App simples de notas",
+  "name": "Libras e Ação",
+  "short_name": "L&A",
+  "description": "App com vídeos sobre fotografia em libras",
   "start_url": "./",
   "display": "standalone",
   "icons": [
     {
-      "src": "img/logo.png",
+      "src": "img/icons/logo.png",
       "sizes": "256x256",
       "type": "image/png"
     }
