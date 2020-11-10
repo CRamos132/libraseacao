@@ -1,6 +1,6 @@
 {
-  "name": "Libras e Ação",
-  "short_name": "L&A",
+  "name": "LIBRAS e Imagem",
+  "short_name": "L&I",
   "description": "App com vídeos sobre fotografia em libras",
   "start_url": "./",
   "display": "standalone",

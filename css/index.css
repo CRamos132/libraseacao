@@ -14,7 +14,7 @@ body,
 input,
 button,
 textarea {
-  font: 500 18px "Inter", sans-serif;
+  font: 500 16px 'Inter', sans-serif;
 }
 
 .title {
@@ -27,9 +27,13 @@ textarea {
   height: 10vh;
   background-color: var(--main);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+#subtitulo {
+  font-size: 14px;
+  color: white;
 }
 .menu_icon {
   height: 30px;
@@ -145,8 +149,8 @@ textarea {
 }
 #home_logo {
   margin-top: 10vh;
-  max-width: 80vw;
-  max-height: 40vh;
+  max-width: 75vw;
+  max-height: 35vh;
 }
 .home_main {
   text-align: center;
@@ -175,7 +179,7 @@ textarea {
   align-items: center;
 }
 .miniatura_img {
-  width: 18vh;
+  width: 15vh;
   height: auto;
 }
 .video-container {
