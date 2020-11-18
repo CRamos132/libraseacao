@@ -5,7 +5,7 @@ const videos = {
       url: "https://www.youtube.com/embed/k_KqrcsN-t0",
     },
     { 
-      nome: "olhar artístico", 
+      nome: "olhar fotográfico", 
       url: "https://www.youtube.com/embed/MiIQgxApW-I" 
     },
     {
