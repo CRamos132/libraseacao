@@ -21,22 +21,42 @@ function insereVideo() {
     document.getElementById("insereTecnicas").appendChild(tecnica);
   });
 }
+function dynamicSort(property) {
+  var sortOrder = 1;
+  if(property[0] === "-") {
+      sortOrder = -1;
+      property = property.substr(1);
+  }
+  return function (a,b) {
+      /* next line works with strings and numbers, 
+       * and you may want to customize it to your needs
+       */
+      var result = (a[property] < b[property]) ? -1 : (a[property] > b[property]) ? 1 : 0;
+      return result * sortOrder;
+  }
+}
+function criaMiniatura(titulo, url) {
+  let node = document.createElement("div");
+  node.className = "miniatura_video";
+  node.onclick = function () {
+    abreVideo(url);
+  };
+  let img = document.createElement("img");
+  img.src = `./img/icons/${titulo.replace(/ /g, "_")}.svg`;
+  img.className = "miniatura_img";
+  node.appendChild(img);
+  var textnode = document.createTextNode(titulo);
+  node.appendChild(textnode);
+  return node;
+}
 function insereTodos(){
   document.getElementById("main").innerHTML = "";
-  videos.tecnicas.forEach((video) => {
-    document.getElementById("main").innerHTML += `
-    <div class='video-container'>
-      <iframe src='${video.url || 'https://www.youtube.com/embed/dQw4w9WgXcQ'}' class='video-mini'></iframe>
-    </div>
-    `;
-  });
-  videos.dicas.forEach((video) => {
-    document.getElementById("main").innerHTML += `
-    <div class='video-container'>
-      <iframe src='${video.url || 'https://www.youtube.com/embed/dQw4w9WgXcQ'}' class='video-mini'></iframe>
-    </div>
-    `;
-  });
+  const vidList = videos.dicas.concat(videos.tecnicas)
+  const ordered = vidList.sort(dynamicSort("nome"))
+  ordered.forEach((video) => {
+    const vid = criaMiniatura(video.nome, video.url)
+    document.getElementById("main").appendChild(vid);
+  })
   document.getElementById('subtitulo').innerText = 'Glossário'
 }
 function abreVideo(url) {
