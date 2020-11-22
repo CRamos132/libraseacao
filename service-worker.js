@@ -1,4 +1,4 @@
-const versao = 3
+const versao = 4
 
 const arquivos = [
   '/',

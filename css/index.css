@@ -8,7 +8,7 @@
 }
 hrml,
 body {
-  background-color: gainsboro;
+  background-color: white;
 }
 body,
 input,
@@ -93,9 +93,14 @@ textarea {
   text-align: center;
   transition: 0.3;
 }
+.footer_item img {
+  height: 14px;
+  width: auto;
+}
 .footer_item a {
   text-decoration: none;
   color: black;
+  font-size: 14px;
 }
 .menu_wrapper {
   display: flex;
@@ -177,9 +182,10 @@ textarea {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 14px;
 }
 .miniatura_img {
-  width: 15vh;
+  width: 12vh;
   height: auto;
 }
 .video-container {
