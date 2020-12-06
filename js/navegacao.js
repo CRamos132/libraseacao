@@ -54,7 +54,8 @@ function insereTodos(){
   const vidList = videos.dicas.concat(videos.tecnicas)
   const ordered = vidList.sort(dynamicSort("nome"))
   ordered.forEach((video) => {
-    const vid = criaMiniatura(video.nome, video.url)
+    if(!video.glossario) return
+    const vid = criaMiniatura(video.nome, video.glossario)
     document.getElementById("main").appendChild(vid);
   })
   document.getElementById('subtitulo').innerText = 'Glossário'
