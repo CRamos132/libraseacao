@@ -35,16 +35,16 @@ const videos = {
       url: "https://www.youtube.com/embed/-59Q9GoEugA",
       glossario: "https://www.youtube.com/embed/CPomuPfBD4Q"
     },
-    { 
-      nome: "letterBox",
-      url: "https://www.youtube.com/embed/HkZUOcFqdo4",
-      glossario: "https://www.youtube.com/embed/boX3GBc-OQc"
-    },
-    { 
-      nome: "padrões geométricos",
-      url: "https://www.youtube.com/embed/aS5GTqc6oCU",
-      glossario: "https://www.youtube.com/embed/uli5ywSqZac"
-    },
+    // { 
+    //   nome: "letterBox",
+    //   url: "https://www.youtube.com/embed/HkZUOcFqdo4",
+    //   glossario: "https://www.youtube.com/embed/boX3GBc-OQc"
+    // },
+    // { 
+    //   nome: "padrões geométricos",
+    //   url: "https://www.youtube.com/embed/aS5GTqc6oCU",
+    //   glossario: "https://www.youtube.com/embed/uli5ywSqZac"
+    // },
     { 
       nome: "simetria", 
       url: "https://www.youtube.com/embed/MeBjJq_dTNk",
@@ -62,35 +62,35 @@ const videos = {
       url: "https://www.youtube.com/embed/XyLlrwOILKM",
       glossario: "https://www.youtube.com/embed/qPETbgnFKFY"
     },
-    { 
-      nome: "fingir cachorro", 
-      url: "https://www.youtube.com/embed/a16-DXH_sPs" 
-    },
-    { 
-      nome: "rebatedor de luz", 
-      url: "https://www.youtube.com/embed/QWtzIYRsSw0",
-      glossario: "https://www.youtube.com/embed/bnafsorCxIQ"
-    },
-    { 
-      nome: "efeito bokeh", 
-      url: "https://www.youtube.com/embed/1OTy8KfRRCo",
-      glossario: "https://www.youtube.com/embed/-167KJ3LGzg"
-    },
-    { 
-      nome: "fundo infinito", 
-      url: "https://www.youtube.com/embed/_yTrhSfnmwg",
-      glossario: "https://www.youtube.com/embed/KlQCnQe8ZHY"
-    },
-    { 
-      nome: "inventar histórias", 
-      url: "https://www.youtube.com/embed/hJq8vxXS87g",
-      glossario: "https://www.youtube.com/embed/T22bjgzSMUo"
-    },
-    { 
-      nome: "ser nojento", 
-      url: "https://www.youtube.com/embed/-8LovirtdOA",
-      glossario: "https://www.youtube.com/embed/Y4ZbeJzl8Uo"
-    },
+    // { 
+    //   nome: "fingir cachorro", 
+    //   url: "https://www.youtube.com/embed/a16-DXH_sPs" 
+    // },
+    // { 
+    //   nome: "rebatedor de luz", 
+    //   url: "https://www.youtube.com/embed/QWtzIYRsSw0",
+    //   glossario: "https://www.youtube.com/embed/bnafsorCxIQ"
+    // },
+    // { 
+    //   nome: "efeito bokeh", 
+    //   url: "https://www.youtube.com/embed/1OTy8KfRRCo",
+    //   glossario: "https://www.youtube.com/embed/-167KJ3LGzg"
+    // },
+    // { 
+    //   nome: "fundo infinito", 
+    //   url: "https://www.youtube.com/embed/_yTrhSfnmwg",
+    //   glossario: "https://www.youtube.com/embed/KlQCnQe8ZHY"
+    // },
+    // { 
+    //   nome: "inventar histórias", 
+    //   url: "https://www.youtube.com/embed/hJq8vxXS87g",
+    //   glossario: "https://www.youtube.com/embed/T22bjgzSMUo"
+    // },
+    // { 
+    //   nome: "ser nojento", 
+    //   url: "https://www.youtube.com/embed/-8LovirtdOA",
+    //   glossario: "https://www.youtube.com/embed/Y4ZbeJzl8Uo"
+    // },
   ],
 };
 
