@@ -7,7 +7,7 @@ const videos = {
     },
     { 
       nome: "olhar fotográfico", 
-      url: "https://www.youtube.com/embed/MiIQgxApW-I",
+      url: "https://www.youtube.com/embed/P7-cI5lHh7M",
       glossario: "https://www.youtube.com/embed/-HZSkLQiEKs"
     },
     {
@@ -27,7 +27,7 @@ const videos = {
     },
     { 
       nome: "corte alto", 
-      url: "https://www.youtube.com/embed/Oo9VM1pGyZs",
+      url: "https://www.youtube.com/embed/lx1bITkQDSg",
       glossario: "https://www.youtube.com/embed/h1ltorQide4" 
     },
     { 
@@ -62,10 +62,15 @@ const videos = {
       url: "https://www.youtube.com/embed/XyLlrwOILKM",
       glossario: "https://www.youtube.com/embed/qPETbgnFKFY"
     },
-    // { 
-    //   nome: "fingir cachorro", 
-    //   url: "https://www.youtube.com/embed/a16-DXH_sPs" 
-    // },
+    { 
+      nome: "fingir cachorro", 
+      url: "https://www.youtube.com/embed/a16-DXH_sPs" 
+    },
+    { 
+      nome: "inventar histórias", 
+      url: "https://www.youtube.com/embed/hJq8vxXS87g",
+      glossario: "https://www.youtube.com/embed/T22bjgzSMUo"
+    },
     // { 
     //   nome: "rebatedor de luz", 
     //   url: "https://www.youtube.com/embed/QWtzIYRsSw0",
@@ -80,11 +85,6 @@ const videos = {
     //   nome: "fundo infinito", 
     //   url: "https://www.youtube.com/embed/_yTrhSfnmwg",
     //   glossario: "https://www.youtube.com/embed/KlQCnQe8ZHY"
-    // },
-    // { 
-    //   nome: "inventar histórias", 
-    //   url: "https://www.youtube.com/embed/hJq8vxXS87g",
-    //   glossario: "https://www.youtube.com/embed/T22bjgzSMUo"
     // },
     // { 
     //   nome: "ser nojento", 

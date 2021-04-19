@@ -1,4 +1,4 @@
-const versao = 8
+const versao = 9
 
 const arquivos = [
   '/',
