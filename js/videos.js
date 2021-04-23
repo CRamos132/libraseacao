@@ -86,11 +86,11 @@ const videos = {
     //   url: "https://www.youtube.com/embed/_yTrhSfnmwg",
     //   glossario: "https://www.youtube.com/embed/KlQCnQe8ZHY"
     // },
-    // { 
-    //   nome: "ser nojento", 
-    //   url: "https://www.youtube.com/embed/-8LovirtdOA",
-    //   glossario: "https://www.youtube.com/embed/Y4ZbeJzl8Uo"
-    // },
+    { 
+      nome: "ser nojento", 
+      url: "https://www.youtube.com/embed/-8LovirtdOA",
+      glossario: "https://www.youtube.com/embed/Y4ZbeJzl8Uo"
+    },
   ],
 };
 
