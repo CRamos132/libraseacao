@@ -52,7 +52,7 @@ const videos = {
     },
     { 
       nome: "enquadramento", 
-      url: "https://www.youtube.com/embed/1dQq7ZgJDTo",
+      url: "https://www.youtube.com/embed/hNFDsfCrelk",
       glossario: "https://www.youtube.com/embed/5zOF9IfYjks"
     },
   ],
@@ -64,11 +64,11 @@ const videos = {
     },
     { 
       nome: "fingir cachorro", 
-      url: "https://www.youtube.com/embed/a16-DXH_sPs" 
+      url: "https://www.youtube.com/embed/8cN5gL7iE1A" 
     },
     { 
       nome: "inventar histórias", 
-      url: "https://www.youtube.com/embed/hJq8vxXS87g",
+      url: "https://www.youtube.com/embed/fzAgyboSYpQ",
       glossario: "https://www.youtube.com/embed/T22bjgzSMUo"
     },
     // { 
@@ -88,7 +88,7 @@ const videos = {
     // },
     { 
       nome: "ser nojento", 
-      url: "https://www.youtube.com/embed/-8LovirtdOA",
+      url: "https://www.youtube.com/embed/5JvgX2nAssg",
       glossario: "https://www.youtube.com/embed/Y4ZbeJzl8Uo"
     },
   ],
